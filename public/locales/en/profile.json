@@ -1,0 +1,20 @@
+{
+  "moncompte": "My account",
+  "mescommandes": "My orders",
+  "infosperso": "Personal informations",
+  "mesinfoperso": "My personal information",
+  "adressemail": "Email address",
+  "nom": "Name",
+  "prenom": "Firstname",
+  "adresse": "Address",
+  "cp": "ZIP code",
+  "ville": "City",
+  "Numérodetelephone": "Phone number",
+  "email": "Email",
+  "retourcompte": "back to account",
+  "valider": "Save",
+  "toastmodif": "Your changes have been saved",
+  "connexion": "Log In",
+  "TOASTprofil": "Your changes have been taken into account",
+  "title": "My personal information | Childcare equipment rental"
+}

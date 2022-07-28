@@ -1,0 +1,20 @@
+{
+  "moncompte": "Mon compte",
+  "mescommandes": "Mes commandes",
+  "infosperso": "Informations personnelles",
+  "adressemail": "Adresse email",
+  "mesinfoperso": "Mes informations personelles",
+  "nom": "Nom",
+  "prenom": "Prénom",
+  "adresse": "Adresse",
+  "cp": "Code postal",
+  "ville": "Ville",
+  "Numérodetelephone": "Numéro de téléphone",
+  "email": "Adresse mail",
+  "retourcompte": "retour au compte",
+  "valider": "Enregistrer",
+  "toastmodif": "Vos modifications ont bien été prises en comptes",
+  "connexion": "Connectez-vous",
+  "TOASTprofil": "Vos modifications ont bien été prises en compte",
+  "title": "Mes informations personnelles | Location de matériel de puériculture"
+}

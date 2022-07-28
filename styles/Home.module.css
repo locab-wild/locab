@@ -1,0 +1,225 @@
+.container {
+  margin-top: 2rem;
+}
+
+.firstParagraphe {
+  text-align: center;
+  background-color: #fbfbfb;
+  font-size: 14px;
+}
+
+.title {
+  color: #96c0c0;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 61px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.title2 {
+  color: #96c0c0;
+  font-size: 40px;
+  margin: 0px;
+  margin-bottom: 18px;
+}
+
+.designHome {
+  display: none;
+}
+
+.textFirst {
+  width: 70%;
+  margin: auto;
+  line-height: 15pt;
+}
+
+.title3 {
+  color: #96c0c0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+}
+
+.title4 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.logoHome {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraphHome {
+  margin: 20px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 15pt;
+}
+
+.thirdTitleHome {
+  color: #96c0c0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+  padding-top: 40px;
+}
+
+.thirdTextTitle {
+  margin: auto;
+  width: 80%;
+  font-size: 13px;
+  line-height: 15pt;
+}
+
+.thirdParagrapheContainer {
+  background-color: #fbfbfb;
+  padding-bottom: 2rem;
+}
+
+.imgCouple {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.choixHome {
+  display: flex;
+  flex-direction: column;
+}
+
+.whereHome {
+  border-radius: 10px;
+  height: 38px;
+  margin: 10px auto;
+  width: 70%;
+  font-size: 13px;
+  background-color: #ededed;
+}
+
+.whenHome {
+  border-radius: 10px;
+  height: 38px;
+  margin: 10px auto;
+  padding-left: 10px;
+  width: 70%;
+  font-size: 13px;
+  background-color: #ededed;
+}
+
+.buttonHome {
+  border-radius: 10px;
+  height: 38px;
+  margin: 10px auto 50px auto;
+  width: 70%;
+  font-size: 13px;
+  color: white;
+  background-color: #d28f71;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+  .designHome {
+    display: initial;
+    width: 50%;
+    margin: auto;
+  }
+
+  .bebeHomeImage {
+    width: 70%;
+    height: auto;
+  }
+
+  .title {
+    font-size: 64px;
+  }
+
+  .title2 {
+    font-size: 64px;
+  }
+
+  .imgcpl {
+    width: 35vh;
+    height: 35vh;
+  }
+
+  .firstParagraphe {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .titleandtextHome {
+    width: 50%;
+    margin-right: 90px;
+  }
+
+  .whereHome {
+    height: 52px;
+    font-size: 18px;
+  }
+
+  .whenHome {
+    height: 52px;
+    padding-right: 20px;
+    font-size: 18px;
+  }
+
+  .buttonHome {
+    height: 55px;
+    width: 50%;
+    font-size: 27px;
+    margin-bottom: 100px;
+  }
+
+  .logoHome {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+  }
+
+  .title3 {
+    margin: 20px;
+    margin-bottom: 60px;
+  }
+
+  /* ABOUT US SECTION */
+
+  .thirdParagraphe {
+    display: flex;
+    margin: auto;
+    width: 85%;
+    padding-bottom: 30px;
+  }
+
+  .thirdTitleHome {
+    margin-top: 20px;
+    text-align: initial;
+  }
+
+  .thirdTextTitle {
+    margin: auto;
+    width: 50%;
+  }
+
+  .paragraphHome {
+    margin-bottom: 50px;
+  }
+
+  .imgCouple {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  .homeImage {
+    width: 90px;
+    height: 90px;
+  }
+}

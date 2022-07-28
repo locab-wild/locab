@@ -1,0 +1,279 @@
+.ordercart {
+  margin-top: 7vh;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
+.titleForForm {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.h3 {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.containerbloc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.ligne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.hr {
+  border-bottom: black;
+  height: 5;
+  width: 100%;
+}
+
+.bloc1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.bloc2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* ----- PARTIE GAUCHE FORMULAIRE ----- */
+
+.formemail {
+  display: flex;
+  flex-direction: column;
+}
+
+.formpassword {
+  display: flex;
+  flex-direction: column;
+}
+
+.password {
+  margin-top: 2rem;
+}
+
+.formbutton {
+  margin-top: 2rem;
+}
+
+.forminscription {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  height: 50px;
+  width: 100%;
+  left: 298px;
+  top: 560px;
+  border-radius: 10px;
+  margin-top: 0.4rem;
+  background-color: #f8f8f8;
+  border: 1px solid rgba(185, 185, 185, 0.74);
+}
+
+.button {
+  height: 64px;
+  width: 450px;
+  left: 298px;
+  top: 757px;
+  background: #d28f71;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+/* ----- FIN PARTIE BIENVENUE ---- */
+
+/* ----- PARTIE INFORMATIONS ----- */
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.button2 {
+  height: 64px;
+  width: 450px;
+  left: 298px;
+  top: 757px;
+  background: #d28f71;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+/* ----- FIN PARTIE INFORMATIONS ---- */
+
+.textarea2 {
+  height: 75px;
+  width: 100%;
+  left: 298px;
+  top: 560px;
+  border-radius: 10px;
+  margin-top: 0.4rem;
+  background-color: #f8f8f8;
+  border: 1px solid rgba(185, 185, 185, 0.74);
+}
+
+.payment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #66c65e;
+}
+
+.paymentparent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.paymentcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.check {
+  color: #66c65e;
+}
+
+.forminscrire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.orderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.paniervide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.divpanier {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .orderContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ordercart {
+    display: flex;
+    justify-content: center;
+  }
+
+  .title {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .bloc1 {
+    width: 95%;
+  }
+
+  .button2 {
+    width: 90%;
+    font-size: medium;
+  }
+
+  .button {
+    width: 90%;
+  }
+
+  .h3 {
+    text-align: center;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .password {
+    margin-top: 2rem;
+    font-size: 15px;
+  }
+
+  .paymentparent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .paymentcontainer {
+    width: 95%;
+  }
+
+  .formbutton {
+    text-align: center;
+  }
+
+  .paniervide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+  }
+}
